@@ -1,0 +1,10 @@
+h5py==3.14.0
+numpy==2.3.3
+scikit_learn==1.7.2
+scikit_multilearn==0.2.0
+scipy==1.16.2
+torch==2.7.1+cu118
+torchmetrics==1.8.1
+tqdm==4.67.1
+transformers==4.55.0
+wfdb==4.3.0
