@@ -6,14 +6,14 @@
 This repository contains a PyTorch implementation of the paper "ADAGRAD-FUSION: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-tuning". It provides tools, training pipelines and utilities to fine-tune large ECG foundation models using a memory-efficient adaptive gradient fusion method.
 
 ## Table of Contents
-- [Key features](#-Key-features)
-- [Requirements](#️-Requirements)
-- [Quickstart](#-Quickstart)
-- [Project structure](#-Project-structure)
-- [Important files and folders](#️-Important-files-and-folders)
-- [Hyper-parameters and tips](#-Hyper-parameters-and-tips)
-- [Reproducing experiments](#-Reproducing-experiments)
-- [Citation](#-Citation)
+- [Key features](#-key-features)
+- [Requirements](#️-requirements)
+- [Quickstart](#-quickstart)
+- [Project structure](#-project-structure)
+- [Important files and folders](#️-important-files-and-folders)
+- [Hyper-parameters and tips](#-hyper-parameters-and-tips)
+- [Reproducing experiments](#-reproducing-experiments)
+- [Citation](#-citation)
 
 ## Key features
 
