@@ -1,6 +1,19 @@
 # ADAGRAD-FUSION
 
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/pytorch-1.10%2B-orange)](https://pytorch.org/)
+
 This repository contains a PyTorch implementation of the paper "ADAGRAD-FUSION: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-tuning". It provides tools, training pipelines and utilities to fine-tune large ECG foundation models using a memory-efficient adaptive gradient fusion method.
+
+## Table of Contents
+- [Key features](#-Key-features)
+- [Requirements](#️-Requirements)
+- [Quickstart](#-Quickstart)
+- [Project structure](#-Project-structure)
+- [Important files and folders](#️-Important-files-and-folders)
+- [Hyper-parameters and tips](#-Hyper-parameters-and-tips)
+- [Reproducing experiments](#-Reproducing-experiments)
+- [Citation](#-Citation)
 
 ## Key features
 
@@ -29,10 +42,10 @@ Quick download the four downsteam datasets:
 ```
 
 3. The teacher model was pre-trained on the CODE-15 dataset, which can be downloaded from:
-`https://zenodo.org/records/4916206`
+(https://zenodo.org/records/4916206)
 
 4. The pre-trained backbones are available on [Hugging Face], which can be downloaded from:
-`https://huggingface.co/KAZABANA/Foundation-Models-for-ECG-classification/tree/main`.
+(https://huggingface.co/KAZABANA/Foundation-Models-for-ECG-classification/tree/main).
 
 2. Preprocess raw data into the project's format with:
 
@@ -94,7 +107,7 @@ AdaGrad-Fusion/
 3. Optionally pretrain a teacher with `pipeline_pretrain.py` using CODE-15.
 4. Run `main.py` or the tailored pipeline scripts to reproduce fine-tuning and evaluation.
 
-## License & Citation
+## Citation
 
 Please cite the ADAGRAD-FUSION paper when using this code in academic work. 
 
